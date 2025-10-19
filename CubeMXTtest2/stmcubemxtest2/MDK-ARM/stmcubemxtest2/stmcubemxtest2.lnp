@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"stmcubemxtest2\startup_stm32f103xb.o"
+"stmcubemxtest2\main.o"
+"stmcubemxtest2\gpio.o"
+"stmcubemxtest2\stm32f1xx_it.o"
+"stmcubemxtest2\stm32f1xx_hal_msp.o"
+"stmcubemxtest2\stm32f1xx_hal_gpio_ex.o"
+"stmcubemxtest2\stm32f1xx_hal.o"
+"stmcubemxtest2\stm32f1xx_hal_rcc.o"
+"stmcubemxtest2\stm32f1xx_hal_rcc_ex.o"
+"stmcubemxtest2\stm32f1xx_hal_gpio.o"
+"stmcubemxtest2\stm32f1xx_hal_dma.o"
+"stmcubemxtest2\stm32f1xx_hal_cortex.o"
+"stmcubemxtest2\stm32f1xx_hal_pwr.o"
+"stmcubemxtest2\stm32f1xx_hal_flash.o"
+"stmcubemxtest2\stm32f1xx_hal_flash_ex.o"
+"stmcubemxtest2\stm32f1xx_hal_exti.o"
+"stmcubemxtest2\system_stm32f1xx.o"
+--strict --scatter "stmcubemxtest2\stmcubemxtest2.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "stmcubemxtest2.map" -o stmcubemxtest2\stmcubemxtest2.axf
