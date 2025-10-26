@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"week-7\startup_stm32f103xb.o"
+"week-7\main.o"
+"week-7\gpio.o"
+"week-7\dma.o"
+"week-7\i2c.o"
+"week-7\usart.o"
+"week-7\stm32f1xx_it.o"
+"week-7\stm32f1xx_hal_msp.o"
+"week-7\stm32f1xx_hal_gpio_ex.o"
+"week-7\stm32f1xx_hal_i2c.o"
+"week-7\stm32f1xx_hal.o"
+"week-7\stm32f1xx_hal_rcc.o"
+"week-7\stm32f1xx_hal_rcc_ex.o"
+"week-7\stm32f1xx_hal_gpio.o"
+"week-7\stm32f1xx_hal_dma.o"
+"week-7\stm32f1xx_hal_cortex.o"
+"week-7\stm32f1xx_hal_pwr.o"
+"week-7\stm32f1xx_hal_flash.o"
+"week-7\stm32f1xx_hal_flash_ex.o"
+"week-7\stm32f1xx_hal_exti.o"
+"week-7\stm32f1xx_hal_uart.o"
+"week-7\system_stm32f1xx.o"
+"week-7\aht20-21_demo_v1_3.o"
+--library_type=microlib --strict --scatter "week-7\week-7.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "week-7.map" -o week-7\week-7.axf
