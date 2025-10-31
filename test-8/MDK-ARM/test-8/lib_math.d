@@ -1,0 +1,12 @@
+test-8\lib_math.o: uC-LIB\lib_math.c
+test-8\lib_math.o: ./uC-LIB/lib_math.h
+test-8\lib_math.o: ./uC-CPU/ARM-Cortex-M3/RealView/cpu.h
+test-8\lib_math.o: ./uC-CPU/cpu_def.h
+test-8\lib_math.o: ./uC-CONFIG/cpu_cfg.h
+test-8\lib_math.o: ./uC-CPU/cpu_core.h
+test-8\lib_math.o: ./uC-LIB/lib_def.h
+test-8\lib_math.o: ./uC-LIB/lib_mem.h
+test-8\lib_math.o: ./uC-CPU/cpu_core.h
+test-8\lib_math.o: ./uC-CONFIG/lib_cfg.h
+test-8\lib_math.o: ./uC-LIB/lib_str.h
+test-8\lib_math.o: ./uC-LIB/lib_ascii.h

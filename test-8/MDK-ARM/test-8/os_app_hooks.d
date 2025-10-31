@@ -1,0 +1,16 @@
+test-8\os_app_hooks.o: uC-CONFIG\os_app_hooks.c
+test-8\os_app_hooks.o: ./uCOS-III/Source/os.h
+test-8\os_app_hooks.o: ./uC-CONFIG/os_cfg.h
+test-8\os_app_hooks.o: ./uC-CPU/ARM-Cortex-M3/RealView/cpu.h
+test-8\os_app_hooks.o: ./uC-CPU/cpu_def.h
+test-8\os_app_hooks.o: ./uC-CONFIG/cpu_cfg.h
+test-8\os_app_hooks.o: ./uC-CPU/cpu_core.h
+test-8\os_app_hooks.o: ./uC-LIB/lib_def.h
+test-8\os_app_hooks.o: ./uC-LIB/lib_mem.h
+test-8\os_app_hooks.o: ./uC-CPU/cpu_core.h
+test-8\os_app_hooks.o: ./uC-CONFIG/lib_cfg.h
+test-8\os_app_hooks.o: ./uC-LIB/lib_str.h
+test-8\os_app_hooks.o: ./uC-LIB/lib_ascii.h
+test-8\os_app_hooks.o: ./uCOS-III/Source/os_type.h
+test-8\os_app_hooks.o: ./uCOS-III/Ports/ARM-Cortex-M3/Generic/RealView/os_cpu.h
+test-8\os_app_hooks.o: ./uC-CONFIG/os_app_hooks.h

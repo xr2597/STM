@@ -1,0 +1,11 @@
+test-8\cpu_c.o: uC-CPU\ARM-Cortex-M3\RealView\cpu_c.c
+test-8\cpu_c.o: ./uC-CPU/ARM-Cortex-M3/RealView/cpu.h
+test-8\cpu_c.o: ./uC-CPU/cpu_def.h
+test-8\cpu_c.o: ./uC-CONFIG/cpu_cfg.h
+test-8\cpu_c.o: ./uC-CPU/cpu_core.h
+test-8\cpu_c.o: ./uC-LIB/lib_def.h
+test-8\cpu_c.o: ./uC-LIB/lib_mem.h
+test-8\cpu_c.o: ./uC-CPU/cpu_core.h
+test-8\cpu_c.o: ./uC-CONFIG/lib_cfg.h
+test-8\cpu_c.o: ./uC-LIB/lib_str.h
+test-8\cpu_c.o: ./uC-LIB/lib_ascii.h
